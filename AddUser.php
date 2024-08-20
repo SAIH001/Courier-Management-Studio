@@ -60,26 +60,26 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="form-validation">
-                                    <form class="form-valide" action="#" method="post">
+                                    <form class="form-valide" action="Actionfiles.php" method="post">
                                         <div class="form-group row">
-                                            <label class="col-lg-4 col-form-label" for="val-username">Username <span class="text-danger">*</span>
+                                            <label class="col-lg-4 col-form-label"  for="val-username">Username <span class="text-danger">*</span>
                                             </label>
                                             <div class="col-lg-6">
-                                                <input type="text" class="form-control" id="val-username" name="val-username" placeholder="Enter a username..">
+                                                <input type="text" class="form-control" name ="USERNAME" id="val-username" name="val-username" placeholder="Enter a username..">
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label class="col-lg-4 col-form-label" for="val-email">Email <span class="text-danger">*</span>
                                             </label>
                                             <div class="col-lg-6">
-                                                <input type="text" class="form-control" id="val-email" name="val-email" placeholder="Your valid email..">
+                                                <input type="text" class="form-control" name ="USEEMAIL" id="val-email" name="val-email" placeholder="Your valid email..">
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label class="col-lg-4 col-form-label" for="val-password">Password <span class="text-danger">*</span>
+                                            <label class="col-lg-4 col-form-label"  for="val-password">Password <span class="text-danger">*</span>
                                             </label>
                                             <div class="col-lg-6">
-                                                <input type="password" class="form-control" id="val-password" name="val-password" placeholder="Choose a safe one..">
+                                                <input type="password" class="form-control" name ="USERPASSWORD" id="val-password" name="val-password" placeholder="Choose a safe one..">
                                             </div>
                                         </div>
                                      
@@ -88,7 +88,7 @@
                                             <label class="col-lg-4 col-form-label" for="val-skill">User Role  <span class="text-danger">*</span>
                                             </label>
                                             <div class="col-lg-6">
-                                                <select class="form-control" id="val-skill" name="val-skill">
+                                                <select class="form-control" name ="USERROLE" id="val-skill" name="val-skill">
                                                     <option value="">Please select</option>
                                                     <option value="html">HTML</option>
                                                     <option value="css">CSS</option>
@@ -116,7 +116,7 @@
                                        
                                         <div class="form-group row">
                                             <div class="col-lg-8 ml-auto">
-                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                                <button type="submit"  name ="SUBMITBTN"class="btn btn-primary">Submit</button>
                                             </div>
                                         </div>
                                     </form>

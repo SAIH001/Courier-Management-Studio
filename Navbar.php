@@ -75,8 +75,8 @@
                             <i class="icon-envelope menu-icon"></i> <span class="nav-text">User Operation</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="AddUser.html">Add User</a></li>
-                            <li><a href="UserList.html">User List</a></li>
+                            <li><a href="AddUser.php">Add User</a></li>
+                            <li><a href="UserList.php">User List</a></li>
                         
                         </ul>
                     </li>
@@ -88,8 +88,8 @@
                           <i class="icon-envelope menu-icon"></i> <span class="nav-text">Role Operation</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="AddRole.html">Add Role</a></li>
-                            <li><a href="RoleList.html">Role List</a></li>
+                            <li><a href="AddRole.php">Add Role</a></li>
+                            <li><a href="RoleList.php">Role List</a></li>
                             
                         </ul>
                     </li>
@@ -104,8 +104,8 @@
                           <i class="icon-envelope menu-icon"></i> <span class="nav-text">Order Operation</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="OrderForm.html">Add Order</a></li>
-                            <li><a href="Orderslist.html">Order List</a></li>
+                            <li><a href="OrderForm.php">Add Order</a></li>
+                            <li><a href="Orderslist.php">Order List</a></li>
                             
                         </ul>
                     </li>
@@ -120,7 +120,7 @@
                         </a>
                         <ul aria-expanded="false">
                          
-                            <li><a href="Reviewlist.html">Reviews List</a></li>
+                            <li><a href="Reviewlist.php">Reviews List</a></li>
                             
                         </ul>
                     </li>
